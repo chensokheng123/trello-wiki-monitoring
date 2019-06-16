@@ -1,0 +1,19 @@
+{
+  "name": "trello-wiki-board-monitoring",
+  "version": "1.0.0",
+  "description": "trello wiki board monitoring",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js"
+  },
+  "author": "sokheng chen",
+  "license": "ISC",
+  "dependencies": {
+    "@slack/events-api": "^2.2.0",
+    "dotenv": "^8.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  }
+}
